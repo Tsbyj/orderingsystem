@@ -4,7 +4,7 @@ spring:
   application:
     name: menu
   datasource:
-    name: estore    #数据库名称，driver没有写会自动查找
+    name: estore    #数据库名称，driver-class-name没有写，框架会自动查找
     url: jdbc:mysql://localhost:3306/orderingsystem?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: root
